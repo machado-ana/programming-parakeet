@@ -3,7 +3,7 @@ to-dos
 [x] 1015 - Distância entre dois Pontos
 [x] 1017 - Gasto de Combustível
 [x] 1021 - Notas e Moedas
-[] 1046 - Tempo de Jogo
+[x] 1046 - Tempo de Jogo - falta upar no bc
 [] 1087 - Dama
 [] 1091 - Divisão da Nlogônia
 [] 1140 - Flores Florescem da França
