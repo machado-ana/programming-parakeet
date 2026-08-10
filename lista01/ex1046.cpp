@@ -8,6 +8,8 @@ int main(void) {
 
 	if (start > end)
 		duration = 24 - start + end;
+	else if (start == end)
+		duration = 24;
 	else
 		duration = end - start;
 

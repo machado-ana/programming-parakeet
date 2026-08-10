@@ -3,10 +3,10 @@ to-dos
 [x] 1015 - Distância entre dois Pontos
 [x] 1017 - Gasto de Combustível
 [x] 1021 - Notas e Moedas
-[x] 1046 - Tempo de Jogo - falta upar no bc
-[] 1087 - Dama
-[] 1091 - Divisão da Nlogônia
-[] 1140 - Flores Florescem da França
+[x] 1046 - Tempo de Jogo
+[x] 1087 - Dama
+[x] 1091 - Divisão da Nlogônia
+[x] 1140 - Flores Florescem da França -> revisar
 [] 1144 - Sequência Lógica
 [] 1161 - Soma de Fatoriais
 [] 1163 - Angry Ducks
