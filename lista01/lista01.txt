@@ -8,8 +8,8 @@ to-dos
 [x] 1091 - Divisão da Nlogônia
 [x] 1140 - Flores Florescem da França -> revisar
 [x] 1144 - Sequência Lógica
-[] 1161 - Soma de Fatoriais
-[] 1163 - Angry Ducks
+[x] 1161 - Soma de Fatoriais
+[x] 1163 - Angry Ducks
 [] 1318 - Bilhetes Falsos
 [] 1367 - Ajude!
 [] 1410 - Ele está impedido!
