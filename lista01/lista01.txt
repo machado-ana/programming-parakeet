@@ -10,7 +10,7 @@ to-dos
 [x] 1144 - Sequência Lógica
 [x] 1161 - Soma de Fatoriais
 [x] 1163 - Angry Ducks
-[] 1318 - Bilhetes Falsos
+[x] 1318 - Bilhetes Falsos
 [] 1367 - Ajude!
 [] 1410 - Ele está impedido!
 [] 1581 - Conversa Internacional
