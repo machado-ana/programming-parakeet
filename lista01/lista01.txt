@@ -13,5 +13,5 @@ to-dos
 [x] 1318 - Bilhetes Falsos
 [] 1367 - Ajude!
 [] 1410 - Ele está impedido!
-[] 1581 - Conversa Internacional
+[x] 1581 - Conversa Internacional
 [] 3106 - Competição de Códigos
