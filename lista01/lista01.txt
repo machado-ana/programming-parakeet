@@ -12,6 +12,6 @@ to-dos
 [x] 1163 - Angry Ducks
 [x] 1318 - Bilhetes Falsos
 [] 1367 - Ajude!
-[] 1410 - Ele está impedido!
+[x] 1410 - Ele está impedido!
 [x] 1581 - Conversa Internacional
-[] 3106 - Competição de Códigos
+[x] 3106 - Competição de Códigos
