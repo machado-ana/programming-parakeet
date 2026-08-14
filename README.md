@@ -1,11 +1,10 @@
 # Programming Parakeet 🦜
-
 ## Overview
 
 This repository tracks my progress through competitive programming problems solved for **ECOX21** discipline, split into two tracks:
 
 - **Problem sets** — individual BeeCrowd exercises, solved and organized by topic as the course progresses.
-- **Mock contests** — timed, multi-problem simulations that mirror real programming contest conditions, used to practice working under time pressure across several problems at once.
+- **Mock contests** — timed, multi-problem simulations that mirror real programming contest conditions.
 
 Repository status: in progress. Lists are added as the course moves forward.
 
