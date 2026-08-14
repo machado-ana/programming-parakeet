@@ -1,9 +1,5 @@
 # Programming Parakeet 🦜
 
-**Competitive programming practice — BeeCrowd exercises and mock contests for ECOX21 discipline**
-
----
-
 ## Overview
 
 This repository tracks my progress through competitive programming problems solved for **ECOX21** discipline, split into two tracks:
