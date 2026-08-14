@@ -1,58 +1,29 @@
 #include <bits/stdc++.h>
 
 int main(void) {
-	int real;
-	int cents;
-	int moedas[5];
-	int notas[5];
+	int r, c;
+	char notas_disponiveis[6] = {100, 50, 20, 10, 5, 2};
+	char moedas_disponiveis[6] = {1, 50, 25, 10, 5, 1};
+	int moedas[6];
+	int notas[6];
 
-	scanf("%d.%d", &real, &cents);
-
-	// Inicializacao dos vetores
-	for (int j=0; j<6; j++) {
-		moedas[j] = 0;
-		notas[j] = 0;
-	}
-
-	notas[0] = real/100;
-	real %= 100;
-	notas[1] = real/50;
-	real %= 50;
-	notas[2] = real/20;
-	real %= 20;
-	notas[3] = real/10;
-	real %= 10;
-	notas[4] = real/5;
-	real %= 5;
-	notas[5] = real/2;
-	real %= 2;
-
-	moedas[0] = real;
-	moedas[1] = cents/50;
-	cents %= 50;
-	moedas[2] = cents/25;
-	cents %= 25;
-	moedas[3] = cents/10;
-	cents %= 10;
-	moedas[4] = cents/5;
-	cents %= 5;
-	moedas[5] = cents;
+	scanf("%d.%d", &r, &c);
 
 	puts("NOTAS:");
-	printf("%d nota(s) de R$ 100.00\n", notas[0]);
-	printf("%d nota(s) de R$ 50.00\n", notas[1]);
-	printf("%d nota(s) de R$ 20.00\n", notas[2]);
-	printf("%d nota(s) de R$ 10.00\n", notas[3]);
-	printf("%d nota(s) de R$ 5.00\n", notas[4]);
-	printf("%d nota(s) de R$ 2.00\n", notas[5]);
+	for (int i=0; i<6; i++) {
+		notas[i] = r/notas_disponiveis[i];
+		r %= notas_disponiveis[i];
+		printf("%d nota(s) de R$ %d.00\n", notas[i], notas_disponiveis[i]);
+	}
 
 	puts("MOEDAS:");
-	printf("%d moeda(s) de R$ 1.00\n", moedas[0]);
-	printf("%d moeda(s) de R$ 0.50\n", moedas[1]);
-	printf("%d moeda(s) de R$ 0.25\n", moedas[2]);
-	printf("%d moeda(s) de R$ 0.10\n", moedas[3]);
-	printf("%d moeda(s) de R$ 0.05\n", moedas[4]);
-	printf("%d moeda(s) de R$ 0.01\n", moedas[5]);
+	moedas[0] = r;
+	printf("%d moeda(s) de R$ %d.00\n", moedas[0], moedas_disponiveis[0]);
+	for (int i=1; i<6; i++) {
+		moedas[i] = c/moedas_disponiveis[i];
+		c %= moedas_disponiveis[i];
+		printf("%d moeda(s) de R$ 0.%02d\n", moedas[i], moedas_disponiveis[i]);
+	}
 
 	return 0;
 }
