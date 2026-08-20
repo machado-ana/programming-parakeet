@@ -15,23 +15,23 @@ double oblique_launch(double h, double angle, double spd) {
 	y_spd = sin(angle) * spd;
 
 	h1 = y_spd*y_spd / (2*GRAV);	// Subida ate v = 0 m/s
-	t1 = y_spd/GRAV;				// Tempo do deslocamento h1		
-	t2 = sqrt(2*(h+h1)/GRAV);		// Tempo do deslocamento h1+h
-	t = t1 + t2;					// Tempo total de voo		
+	t1 = y_spd/GRAV;							// Tempo do deslocamento h1
+	t2 = sqrt(2*(h+h1)/GRAV);			// Tempo do deslocamento h1+h
+	t = t1 + t2;									// Tempo total de voo
 
-	x = x_spd*t;					// Distancia do MRU em x		
+	x = x_spd*t;									// Distancia do MRU em x
 
 	return x;
 }
 
 int main(void) {
-	double h;			// [1, 150]
+	double h;				// [1, 150]
 	int p1, p2; 		// [1, 9999]
-	int n;				// [1, 100]
-	double angle; 		// [1, 180]
+	int n;					// [1, 100]
+	double angle; 	// [1, 180]
 	double spd; 		// [1, 150]
 
-	while (scanf("%lf %d %d %d", 
+	while (scanf("%lf %d %d %d",
 		&h, &p1, &p2, &n) != EOF) {
 
 		for (int i=0; i<n; i++) {
@@ -41,7 +41,7 @@ int main(void) {
 			scanf("%lf %lf", &angle, &spd);
 
 			x = oblique_launch(h, angle, spd);
-			
+
 			if (x >= p1 && x <= p2)
 				hit = true;
 

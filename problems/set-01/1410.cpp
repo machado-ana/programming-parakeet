@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 
-#define SZ 11 		// Max players = 11
+#define SZ 11 			// Max players = 11
 #define DIST 11000 	// Max dist = 10 000
 
 void sortArray(int sz, int vet[]) {
@@ -15,7 +15,7 @@ void sortArray(int sz, int vet[]) {
 }
 
 int main(void) {
-	int a, d; 			// Attacking, Defending
+	int a, d; 					// Attacking, Defending
 	int b[SZ], c[SZ]; 	// A dist, D dist
 
 	scanf("%d %d", &a, &d);
@@ -29,7 +29,7 @@ int main(void) {
 
 		sortArray(a, b);
 		sortArray(d, c);
-		
+
 		if (b[0] < c[1])
 			puts("Y");
 		else
