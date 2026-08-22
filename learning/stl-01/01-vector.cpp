@@ -2,7 +2,6 @@
 #include <vector>
 #include <algorithm>
 #include <unistd.h>
-
 using namespace std;
 
 void printDots(void) {
@@ -49,6 +48,14 @@ int main(void) {
   }
   cout << endl << endl;
 
+  cout << " > Popping back last item...\n   ";
+  vec.pop_back();
+  for (it=vec.begin(); it<vec.end(); it++) {
+    cout << "[" << *it << "] " << flush;
+    sleep(1);
+  }
+  cout << endl << endl;
+
   cout << " > Sorting Vector";
   printDots();
   cout << "   ";
@@ -67,7 +74,6 @@ int main(void) {
   sleep(1);
   cout << "   Last item: " << *(vec.end()-1) << endl;
   sleep(1);
-
 
   return 0;
 }
