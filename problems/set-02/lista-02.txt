@@ -1,6 +1,6 @@
 to-dos
 
-[] 1024 - Criptografia
+[x] 1024 - Criptografia
 [] 1026 - Carrega ou não Carrega?
 [] 1030 - A Lenda de Flavious Josephus
 [] 1105	- Sub-prime
