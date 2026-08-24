@@ -3,3 +3,4 @@ to-dos
 [] refatorar vector.cpp
 [] beecrowd examplos
 [] aula 02 joao paulo
+[] operações dos slides
