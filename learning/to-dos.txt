@@ -1,6 +1,8 @@
 to-dos
 
-[] refatorar vector.cpp
+[x] refatorar vector.cpp
 [] beecrowd examplos
 [] aula 02 joao paulo
 [] operações dos slides
+[] refatorar 1030 (lista 2 mat)
+[] refatorar 3301 (lista 2 map)
