@@ -12,6 +12,15 @@ void printDots(void) {
   cout << endl;
 }
 
+void printVector(vector<int> v) {
+  vector<int>::iterator it;
+  for (it=v.begin(); it<v.end(); it++) {
+    cout << "[" << *it << "] " << flush;
+    sleep(1);
+  }
+  cout << endl;
+}
+
 int main(void) {
   vector<int> vec;
   vector<int>::iterator it;
@@ -24,49 +33,36 @@ int main(void) {
   vec.push_back(40);
   vec.push_back(30);
   vec.push_back(10);
-  cout << endl;
 
-  cout << " > Printing with size() method...\n   ";
+  cout << "\n > Printing with size() method...\n   ";
   for (int i=0; i<vec.size(); i++) {
     cout << "[" << vec[i] << "] " << flush;
     sleep(1);
   }
-  cout << endl << endl;
+  cout << endl;
 
-  cout << " > Printing using iterator...\n   ";
+  cout << "\n > Printing using iterator...\n   ";
   for (it=vec.begin(); it<vec.end(); it++) {
     cout << "[" << *it << "] " << flush;
     sleep(1);
   }
-  cout << endl << endl;
+  cout << endl;
 
-  cout << " > Erasing second item...\n   ";
+  cout << "\n > Erasing second item...\n   ";
   vec.erase(vec.begin()+1);
-  for (it=vec.begin(); it<vec.end(); it++) {
-    cout << "[" << *it << "] " << flush;
-    sleep(1);
-  }
-  cout << endl << endl;
+  printVector(vec);
 
-  cout << " > Popping back last item...\n   ";
+  cout << "\n > Popping back last item...\n   ";
   vec.pop_back();
-  for (it=vec.begin(); it<vec.end(); it++) {
-    cout << "[" << *it << "] " << flush;
-    sleep(1);
-  }
-  cout << endl << endl;
+  printVector(vec);
 
-  cout << " > Sorting Vector";
+  cout << "\n > Sorting Vector";
   printDots();
   cout << "   ";
   sort(vec.begin(), vec.end());
-  for (it=vec.begin(); it<vec.end(); it++) {
-    cout << "[" << *it << "] " << flush;
-    sleep(1);
-  }
-  cout << endl << endl;
+  printVector(vec);
 
-  cout << " > Calculating Vector info";
+  cout << "\n > Calculating Vector info";
   printDots();
   cout << "   First item: " << *(vec.begin()) << endl;
   sleep(1);
