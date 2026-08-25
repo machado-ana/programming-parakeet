@@ -6,12 +6,12 @@ to-dos
 [] 1105	- Sub-prime
 [x] 1142	- PUM
 [x] 1164	- Número Perfeito
-[] 1168	- LED ?
+[x] 1168	- LED
 [x] 1192	- O jogo Matemático de Paula
 [x] 1241	- Encaixa ou Não II
-[] 1257	- Array Hash
+[x] 1257	- Array Hash
 [x] 1457	- Oráculo de Alexandria
 [x] 1985	- MacPRONALTS
 [x] 2845	- Festa no Polo Norte
-[] 3068	- Meteoros ?
+[x] 3068	- Meteoros
 [x] 3301	- Sobrinho do Meio
