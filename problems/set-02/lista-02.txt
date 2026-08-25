@@ -2,7 +2,7 @@ to-dos
 
 [x] 1024 - Criptografia
 [x] 1026 - Carrega ou não Carrega?
-[] 1030 - A Lenda de Flavious Josephus
+[x] 1030 - A Lenda de Flavious Josephus
 [x] 1105	- Sub-prime
 [x] 1142	- PUM
 [x] 1164	- Número Perfeito
