@@ -1,11 +1,11 @@
 to-dos
 
 [x] 1024 - Criptografia
-[] 1026 - Carrega ou não Carrega?
+[x] 1026 - Carrega ou não Carrega?
 [] 1030 - A Lenda de Flavious Josephus
 [] 1105	- Sub-prime
-[] 1142	- PUM
-[] 1164	- Número Perfeito
+[x] 1142	- PUM
+[x] 1164	- Número Perfeito
 [] 1168	- LED
 [] 1192	- O jogo Matemático de Paula
 [] 1241	- Encaixa ou Não II
