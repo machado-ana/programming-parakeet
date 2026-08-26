@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository tracks my progress through competitive programming problems solved for the **ECOX21** discipline, split into three tracks:
+This repository tracks my progress through competitive programming problems solved for the **Competitive Programming I** discipline, split into three tracks:
 
 - **Problem sets** — individual BeeCrowd exercises, solved and organized by topic as the course progresses.
 - **Mock contests** — timed, multi-problem simulations that mirror real programming contest conditions.
