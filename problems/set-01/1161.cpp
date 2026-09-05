@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 unsigned long int fat(int x) {
-	unsigned long int fat = 1;	
+	unsigned long int fat = 1;
 	for (int i=2; i<=x; i++)
 		fat *= i;
 	return fat;

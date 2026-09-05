@@ -4,7 +4,6 @@ int main(void) {
 	long int n;
 	long int students = 0;
 
-
 	scanf("%ld", &n);
 	int s[n];
 

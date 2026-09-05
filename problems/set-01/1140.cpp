@@ -18,7 +18,7 @@ int main(void) {
 		for (int i=0; i<NUM; i++)
 			for (int j=0; j<SZ; j++)
 				f_txt[i][j] = 0;
-		
+
 		// Divide a frase em palavras
 		for (int i=0; txt[i] != '\0'; i++) {
 			if (txt[i] == ' ') {

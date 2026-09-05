@@ -5,7 +5,7 @@ int main(void) {
 	int moves = 0;
 
 	scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
-	
+
 	// Para com entrada "0 0 0 0"
 	while(x1 || y1 || x2 || y2) {
 
