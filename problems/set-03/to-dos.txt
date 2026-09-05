@@ -1,9 +1,9 @@
 to-dos
 
-[] 1020	- Idade em Dias
-[] 1037	- Intervalo
+[x] 1020	- Idade em Dias
+[x] 1037	- Intervalo
 [] 1039	- Flores de Fogo
-[] 1041	- Coordenadas de um Ponto
+[x] 1041	- Coordenadas de um Ponto
 [] 1045	- Tipos de Triângulos
 [] 1068	- Balanço de Parênteses I
 [] 1196	- WERTYU
