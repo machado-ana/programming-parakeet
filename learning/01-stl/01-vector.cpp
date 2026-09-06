@@ -2,6 +2,7 @@
 #include <vector>
 #include <algorithm>
 #include <unistd.h>
+#include <format>
 using namespace std;
 
 void printDots(void) {
@@ -15,7 +16,7 @@ void printDots(void) {
 void printVector(vector<int> v) {
   vector<int>::iterator it;
   for (it=v.begin(); it<v.end(); it++) {
-    cout << "[" << *it << "] " << flush;
+    cout << format("[{:02d}] ", *it) << flush;
     sleep(1);
   }
   cout << endl;
@@ -70,6 +71,10 @@ int main(void) {
   sleep(1);
   cout << "   Last item: " << *(vec.end()-1) << endl;
   sleep(1);
+
+  cout << "\n > Resizing Vector...\n   ";
+  vec.resize(5, 0);
+  printVector(vec);
 
   return 0;
 }
