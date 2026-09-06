@@ -9,7 +9,7 @@ to-dos
 [] 1196	- WERTYU
 [x] 1241	- Encaixa ou Não II
 [x] 1259	- Pares e Ímpares
-[] 1403	- Meu Avô é Famoso
+[x] 1403	- Meu Avô é Famoso
 [] 1449	- O Fantástico Jaspion
 [x] 1769	- CPF
 [x] 1893	- Fases da Lua
@@ -17,6 +17,6 @@ to-dos
 [x] 3344	- Brute
 [x] 1962	- Há Muito, Muito Tempo Atrás
 [] 3137	- Páginas de um Livro
-[] 2309	- Truco
+[x] 2309	- Truco
 [x] 1555 - Funções
-[] 2286 - Par ou Ímpar
+[x] 2286 - Par ou Ímpar

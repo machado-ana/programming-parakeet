@@ -1,9 +1,8 @@
 to-dos
 
-[x] refatorar vector.cpp
-[] beecrowd exemplos stl
+[] noic exemplos stl
 [] aula 02 joao paulo
-[] slide stl 
+[] slide stl
 [] refatorar 1030 (lista 2 mat)
 [] refatorar 3301 (lista 2 map)
 [] range query
@@ -11,4 +10,4 @@ to-dos
 [] fazer A do simulado 1
 [] simulado aquecimento
 [] questoes que faltaram do simulado 2
-
+[] refazer 1403 (set 03)
