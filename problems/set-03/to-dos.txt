@@ -4,7 +4,7 @@ to-dos
 [x] 1037	- Intervalo
 [] 1039	- Flores de Fogo
 [x] 1041	- Coordenadas de um Ponto
-[] 1045	- Tipos de Triângulos
+[x] 1045	- Tipos de Triângulos
 [] 1068	- Balanço de Parênteses I
 [] 1196	- WERTYU
 [x] 1241	- Encaixa ou Não II
@@ -12,8 +12,8 @@ to-dos
 [] 1403	- Meu Avô é Famoso
 [] 1449	- O Fantástico Jaspion
 [x] 1769	- CPF
-[] 1893	- Fases da Lua
-[] 2729	- Lista de Compras
+[x] 1893	- Fases da Lua
+[x] 2729	- Lista de Compras
 [x] 3344	- Brute
 [x] 1962	- Há Muito, Muito Tempo Atrás
 [] 3137	- Páginas de um Livro
