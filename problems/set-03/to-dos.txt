@@ -8,13 +8,13 @@ to-dos
 [] 1068	- Balanço de Parênteses I
 [] 1196	- WERTYU
 [x] 1241	- Encaixa ou Não II
-[] 1259	- Pares e Ímpares
+[x] 1259	- Pares e Ímpares
 [] 1403	- Meu Avô é Famoso
 [] 1449	- O Fantástico Jaspion
-[] 1769	- CPF
+[x] 1769	- CPF
 [] 1893	- Fases da Lua
 [] 2729	- Lista de Compras
-[] 3344	- Brute
+[x] 3344	- Brute
 [x] 1962	- Há Muito, Muito Tempo Atrás
 [] 3137	- Páginas de um Livro
 [] 2309	- Truco
