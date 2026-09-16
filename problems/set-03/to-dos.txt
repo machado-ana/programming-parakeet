@@ -2,7 +2,7 @@ to-dos
 
 [x] 1020	- Idade em Dias
 [x] 1037	- Intervalo
-[] 1039	- Flores de Fogo
+[x] 1039	- Flores de Fogo
 [x] 1041	- Coordenadas de um Ponto
 [x] 1045	- Tipos de Triângulos
 [] 1068	- Balanço de Parênteses I
@@ -10,7 +10,7 @@ to-dos
 [x] 1241	- Encaixa ou Não II
 [x] 1259	- Pares e Ímpares
 [x] 1403	- Meu Avô é Famoso
-[] 1449	- O Fantástico Jaspion
+[x] 1449	- O Fantástico Jaspion
 [x] 1769	- CPF
 [x] 1893	- Fases da Lua
 [x] 2729	- Lista de Compras
