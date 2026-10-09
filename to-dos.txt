@@ -1,6 +1,8 @@
 to-dos
 
 [] noic exemplos stl
+    [] vector
+    [] pair
 [] aula 02 joao paulo
 [] slide stl
 [] refatorar 1030 (lista 2 mat)
@@ -11,3 +13,6 @@ to-dos
 [] simulado aquecimento
 [] questoes que faltaram do simulado 2
 [] refazer 1403 (set 03)
+[] questoes que faltaram do set 3
+[] questoes que faltaram do set 4
+[] set 5
