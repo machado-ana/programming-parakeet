@@ -3,7 +3,7 @@ to-dos
 [] 1081 - DFSr - Hierarquia de Profundidade
 [] 1082 - Componentes Conexos
 [] 1103 - Alarme Despertador
-[] 1125 - Fórmula 1
+[x] 1125 - Fórmula 1
 [] 1128 - Ir e Vir
 [] 1136 - Bingo!
 [] 1148 - Países em Guerra
@@ -18,8 +18,8 @@ to-dos
 [] 1022 - TDA Racional
 [x] 1873 - Pedra-papel-tesoura-lagarto-Spock
 [x] 1943 - Top N
-[] 2374 - Pneu *
-[] 1170 - Blobs *
+[x] 2374 - Pneu
+[x] 1170 - Blobs
 [] 1029 - Fibonacci, Quantas Chamadas?
 [] 1193 - Conversão entre Bases
 [] 1211 - Lista Telefônica Econômica
