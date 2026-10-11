@@ -21,7 +21,7 @@ to-dos
 [x] 2374 - Pneu
 [x] 1170 - Blobs
 [] 1029 - Fibonacci, Quantas Chamadas?
-[] 1193 - Conversão entre Bases
+[x] 1193 - Conversão entre Bases
 [] 1211 - Lista Telefônica Econômica
 [] 1212 - Aritmética Primária
 [] 1536 - Libertadores
