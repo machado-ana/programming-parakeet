@@ -46,6 +46,7 @@ void initGraph(void) {
 
     adj[2].push_back(0);
     adj[2].push_back(1);
+    adj[2].push_back(3);
     adj[2].push_back(4);
     adj[2].push_back(5);
 
