@@ -98,10 +98,18 @@ graph LR
 	- Laço for: O(E).
 - Portanto, bem eficiente.
 - Exemplos: 
-  - [versão recursiva](./ex03.cpp)
-  - [versão stack](./ex04.cpp)
+  - [Lista - Versão Recursiva](./ex03.cpp);
+  - [Lista - Versão Pilha](./ex04.cpp);
+  - [Matriz - Versão Recursiva] ** a fazer;
+  - [Matriz - Versão Pilha] ** a fazer.
 
 ### 2. BFS
 - Busca em largura;
 - Encontra o os vértices **mais próximos**;
 - Analogia da bola de bilhar;
+- Analisando a complexidade:
+	- Inserção/remoção de um vértice: O(V)
+	- Percorrendo a lista: O(E).
+- Portanto, mesma complexidade que a DFS.
+- Exemplos:
+	- [Lista - Versão Fila](./ex05.cpp)
