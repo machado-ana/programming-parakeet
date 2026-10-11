@@ -98,6 +98,7 @@ void printCC(void) {
     puts("");
 }
 
+
 int main(void) {
     initGraph();
     printMenu();

@@ -86,5 +86,22 @@ graph LR
 
 ## Algoritmos
 - **Algoritmo de Welsh-Powell**: colorir um mapa político
-- **Busca em Profundidade**: ...
-- **Busca em Largura**: ...
+- **Busca em Profundidade**: percorrer o grafo por completo
+- **Busca em Largura**: encontrar os menores caminhos
+
+### 1. DFS
+- Busca em profundidade;
+- Identifica **todos os vértices** de um grafo;
+- Percorremos o grafo buscando chegar até o último nó sem vizinhos não visitados;
+- Analisando a complexidade:
+	- Trabalho fixo: O(V);
+	- Laço for: O(E).
+- Portanto, bem eficiente.
+- Exemplos: 
+  - [versão recursiva](./ex03.cpp)
+  - [versão stack](./ex04.cpp)
+
+### 2. BFS
+- Busca em largura;
+- Encontra o os vértices **mais próximos**;
+- Analogia da bola de bilhar;
