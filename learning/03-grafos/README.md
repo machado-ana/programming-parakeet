@@ -105,11 +105,20 @@ graph LR
 
 ### 2. BFS
 - Busca em largura;
+- Percorre todos os vizinhos de um nó antes de aprofundar no grafo;
 - Encontra o os vértices **mais próximos**;
 - Analogia da bola de bilhar;
+- Construímos uma Árvore de Caminho Mínimo;
 - Analisando a complexidade:
 	- Inserção/remoção de um vértice: O(V)
 	- Percorrendo a lista: O(E).
 - Portanto, mesma complexidade que a DFS.
 - Exemplos:
 	- [Lista - Versão Fila](./ex05.cpp)
+
+### 3. Algoritmo de Dijkstra
+- Somente para grafos com custos positivos nas arestas;
+- Guarda o caminho mínimo entre dois nós em um vetor ```anterior[u]```;
+- Guarda o custo em um outro vetor ```custo[v]```;
+- Exemplos:
+  - [Matriz](.ex06.cpp)
