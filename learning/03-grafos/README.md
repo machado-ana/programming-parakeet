@@ -117,8 +117,15 @@ graph LR
 	- [Lista - Versão Fila](./ex05.cpp)
 
 ### 3. Algoritmo de Dijkstra
+- Encontra o caminho mínimo em grafos ponderados;
 - Somente para grafos com custos positivos nas arestas;
-- Guarda o caminho mínimo entre dois nós em um vetor ```anterior[u]```;
-- Guarda o custo em um outro vetor ```custo[v]```;
+- Guarda o **caminho mínimo** entre dois nós por meio do vetor ```anterior[u]```;
+- Guarda o **custo mínimo** no vetor ```custo[v]```;
+- Analisando a complexidade:
+	- Complexidade é O(V^2) - versão matriz.
 - Exemplos:
-  - [Matriz](.ex06.cpp)
+  - [Matriz - Versão menos otimizada](./ex06.cpp);
+  - [Lista - Versão Heap](./ex07.cpp) ** a fazer.
+
+### 3. Algoritmo de Bellman-Ford
+- Funciona para grafos com custos negativos nas arestas;

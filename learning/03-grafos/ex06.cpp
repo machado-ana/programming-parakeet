@@ -19,12 +19,8 @@ int graph[SZ][SZ] = {
 void printMenu(void) {
     cout << "   === Ex. 06: Algoritmo de Dijkstra ===\n";
     cout << " > Infos gerais:\n";
-    cout << "   - O grafo percorrido e no formato de matriz;\n"
-         << "   - Este algoritmo guarda os menores custos\n"
-         << "   para determinado no chegar nos demais nos\n"
-         << "   do grafo;\n"
-         << "   - Ele tambem guarda o caminho que deve ser\n"
-         << "   seguido para chegar nesses vertices.\n\n";
+    cout << "   - O grafo percorrido possui formato de;\n"
+         << "   matriz de adjacencia.\n";
 }
 
 void printGraph(void) {
@@ -86,7 +82,7 @@ int main(void) {
     printGraph();
 
     dijkstra(0);
-    cout << "\n > Dijkstra(0)\n";
+    cout << "\n > dijkstra(0)\n";
     cout << "   Custo:     ";
     printCost();
     cout << "   Anterior: ";
