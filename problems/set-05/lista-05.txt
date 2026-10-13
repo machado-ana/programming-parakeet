@@ -2,7 +2,7 @@ to-dos
 
 [] 1081 - DFSr - Hierarquia de Profundidade
 [] 1082 - Componentes Conexos
-[] 1103 - Alarme Despertador
+[x] 1103 - Alarme Despertador
 [x] 1125 - Fórmula 1
 [] 1128 - Ir e Vir
 [] 1136 - Bingo!
@@ -13,8 +13,8 @@ to-dos
 [] 2253 - Validador de Senhas
 [] 2294 - Duende Perdido
 [x] 2424 - Tira-teima
-[] 2460 - Fila
-[] 2653 - Dijkstra
+[x] 2460 - Fila
+[x] 2653 - Dijkstra
 [] 1022 - TDA Racional
 [x] 1873 - Pedra-papel-tesoura-lagarto-Spock
 [x] 1943 - Top N
