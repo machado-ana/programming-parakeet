@@ -1,6 +1,6 @@
 to-dos
 
-[] 1081 - DFSr - Hierarquia de Profundidade
+[] 1081 - DFSr - Hierarquia de Profundidade *
 [] 1082 - Componentes Conexos
 [x] 1103 - Alarme Despertador
 [x] 1125 - Fórmula 1
@@ -9,8 +9,8 @@ to-dos
 [] 1148 - Países em Guerra
 [] 1221 - Primo Rápido
 [] 1244 - Ordenação por Tamanho
-[] 1267 - Biblioteca Pascal
-[] 2253 - Validador de Senhas
+[x] 1267 - Biblioteca Pascal
+[] 2253 - Validador de Senhas *
 [] 2294 - Duende Perdido
 [x] 2424 - Tira-teima
 [x] 2460 - Fila
@@ -24,4 +24,4 @@ to-dos
 [x] 1193 - Conversão entre Bases
 [] 1211 - Lista Telefônica Econômica
 [] 1212 - Aritmética Primária
-[] 1536 - Libertadores
+[] 1536 - Libertadores *
