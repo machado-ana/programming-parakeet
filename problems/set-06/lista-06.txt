@@ -1,0 +1,17 @@
+to-dos
+
+[] 1023 - Estiagem
+[] 1077 - Infixa para Posfixa
+[] 1083 - LEXSIM - Avaliador Lexico e Sintático
+[] 1454 - O País das Bicicletas
+[] 1477 - Homem, Elefante e Rato
+[] 1549 - Dividindo a Coca
+[] 1722 - Quantos Fibs?
+[] 1938 - Praça do Retângulo
+[] 2091 - Número Solitário
+[] 2136 - Amigos do Habay
+[x] 2174 - Coleção de Pomekon
+[x] 2242 - Huaauhahhuahau
+[] 2631 - Formando Duplas
+[] 3036 - Cor da Camisa
+[x] 3358 - Sobrenome Não é Fácil
