@@ -12,6 +12,6 @@ to-dos
 [x] 2136 - Amigos do Habay
 [x] 2174 - Coleção de Pomekon
 [x] 2242 - Huaauhahhuahau
-[] 2631 - Formando Duplas
+[x] 2631 - Formando Duplas
 [x] 3036 - Cor da Camisa
 [x] 3358 - Sobrenome Não é Fácil
